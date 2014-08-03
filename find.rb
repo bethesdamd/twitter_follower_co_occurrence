@@ -5,12 +5,13 @@
 # Lina18,458608351
 # Lina18,1003803530
 # abuhilalah,1324877911
-require "awesome_print"
+require "awesome_print"   # for test printing of hashes to better see their structure
 
 filename = ARGV[0]
 lastc1 = ""
 data, els = {}
 
+# Read the file into a hash called 'data' for subsequent processing
 File.open(filename, 'r').each do |line|
 	newc1,c2 = line.split(",")
 	newc1.strip!
@@ -24,12 +25,15 @@ File.open(filename, 'r').each do |line|
 end
 # ap data
 
+# An example of what the 'data' hash looks like.  Use this hash for testing.
+# Here mary has three followers (bard, bill, and susan) and rick has two followers (susan and marty), etc.
 # data = { 	'mary' => {'barb' => nil, 'bill' => nil, 'susan' => nil},
 # 		'rick' => {'susan' => nil, 'marty' => nil},
 # 		'david' => {'scott' => nil, 'barb' => nil, 'larry' => nil, 'michael' => nil, 'carl' => nil, 'susan' => nil},
 # 		'carl' => {'david' => nil, 'reagan' => nil}
 # }
 
+# Put the results in a hash
 results = {}
 names = data.keys
 (0..names.size-2).each do |k|
@@ -47,18 +51,18 @@ names = data.keys
 			end
 		end
 		if (@name1 < @name2)
-				r = @name1 + ":" + @name2
+			r = @name1 + ":" + @name2
 		else 
-				r = @name2 + ":" + @name1
+			r = @name2 + ":" + @name1
 		end
 		results[r] = @t
 	end
 end
-ap results
+# ap results
 # e.g. {"mary:rick"=>1, "david:mary"=>2, "carl:mary"=>0, "david:rick"=>1, "carl:rick"=>0, "carl:david"=>0}
 
 results.each_pair do |key, value|
 	s = key.split(":")
-	# puts "#{s[0]}\t#{s[1]}\t#{value}"
+	puts "#{s[0]},#{s[1]},#{value}"  # writing the data out as csv on the command line
 end
 

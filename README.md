@@ -24,6 +24,8 @@ majliselhassan,2390808858
 
 majliselhassan,201906463
 
+IMPORTANT: the data file should be sorted so that all the like handles are together.
+
 If this file is large, then creating a link analysis visualization will create an indecipherable "hairball" graphic, where we can't easily discern all the associations.  In this event, an adjacency matrix visualization may be more suitable.
 
 So, we need to calculate, for every given pair of users, how many followers they have in common.
