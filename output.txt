@@ -1,32 +1,3 @@
-Account Handle,MarwanMuasher,0
-Account Handle,OraibAlRantawi,0
-Account Handle,RandaHabib,0
-Account Handle,ymansur,0
-Account Handle,tarawnah,0
-Account Handle,SultanAbuTayeh,0
-Account Handle,alzoubi_ahmed,0
-Account Handle,TarekSamiKhoury,0
-Account Handle,RHCJO,0
-Account Handle,RamiKhouri,0
-Account Handle,HamzahHKJ,0
-Account Handle,daoudkuttab,0
-Account Handle,cfhgfc_333,0
-Account Handle,Hussein_Almjali,0
-Account Handle,Deema22,0
-Account Handle,Rana_Sabbagh,0
-Account Handle,Yzaatreh,0
-Account Handle,Lina18,0
-Account Handle,abuhilalah,0
-Account Handle,mohamadwakel,0
-Account Handle,AliBinAlHussein,0
-Account Handle,EmadHajjaj,0
-Account Handle,NasserJudeh,0
-Account Handle,majliselhassan,0
-Account Handle,KhaderAsma,0
-Account Handle,Nahed_Hattar,0
-Account Handle,drmnouh,0
-Account Handle,smaa1994,0
-Account Handle,Dramjadqoursha,0
 MarwanMuasher,OraibAlRantawi,33
 MarwanMuasher,RandaHabib,2581
 MarwanMuasher,ymansur,1489
