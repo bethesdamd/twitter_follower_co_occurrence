@@ -43,6 +43,7 @@ ruby find.rb <filename>
 
 where <filename> is the input file containing the data.
 
+The resulting Centrifuge matrix visualization shows which twitter users have the most followers in common.  We've hovered over the strongest pair, and the tooltip displays the count for this pair.
 
 ![alt text](https://raw.githubusercontent.com/bethesdamd/twitter_follower_co_occurrence/master/adjacency_matrix.png "adjacency matrix image")
 
