@@ -44,4 +44,5 @@ ruby find.rb <filename>
 where <filename> is the input file containing the data.
 
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
