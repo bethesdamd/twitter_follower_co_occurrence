@@ -28,6 +28,12 @@ If this file is large, then creating a link analysis visualization will create a
 
 So, we need to calculate, for every given pair of users, how many followers they have in common.
 
-Calculating the co-occurrences is a tad compute intensive but can be done quickly if coded properly.  That's what this software does.
+For example, for the above data, the co-occurrences totals would be:
+
+MarwanMuasher:shubeilat,1
+MarwanMuasher:majliselhassan,1
+
+Calculating these co-occurrences is a tad compute intensive but can be done quickly if coded properly.  This software, running on an old laptop, will read and process a data file of nearly 1 million lines, in about ten seconds.
+
 
 
