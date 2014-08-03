@@ -37,5 +37,11 @@ MarwanMuasher:majliselhassan,1
 
 Calculating these co-occurrences is a tad compute intensive but can be done quickly if coded properly.  This software, running on an old laptop, will read and process a data file of nearly 1 million lines, in about ten seconds.
 
+Run instructions:
+
+ruby find.rb <filename>
+
+where <filename> is the input file containing the data.
+
 
 
