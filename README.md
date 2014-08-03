@@ -3,6 +3,7 @@
 Assume you have a file of Twitter follower data like this:
 
 handle,follower_id
+
 MarwanMuasher,248157523
 
 MarwanMuasher,357695535
