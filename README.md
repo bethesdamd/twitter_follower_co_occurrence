@@ -44,5 +44,5 @@ ruby find.rb <filename>
 where <filename> is the input file containing the data.
 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/bethesdamd/twitter_follower_co_occurrence/master/adjacency_matrix.png "adjacency matrix image")
 
